@@ -1,0 +1,120 @@
+/* Общие стили для контейнера и заголовков */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+h1 {
+  color: #304ffe;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Стили для секций */
+.search-section,
+.add-section,
+.table-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9fc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Заголовки секций */
+.search-section h2,
+.add-section h2,
+.table-section h2 {
+  color: #304ffe;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* Стили для input и select */
+input[type="text"],
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  max-width: 150px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #304ffe;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 79, 254, 0.2);
+}
+
+/* Кнопки */
+button {
+  background-color: #304ffe;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+/* Таблица */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f2f2f7;
+  color: #304ffe;
+  font-weight: 500;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Пагинация */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
+
+.pagination span {
+  margin: 0 10px;
+  color: #777;
+}
+
+label {
+  margin-left: 15px;
+  color: #555;
+}
